@@ -1,0 +1,15 @@
+Vous allez retoucher votre fichier index.php (à la racine du projet) pour qu'il agisse en tant que routeur :
+Il devra réceptionner l'URI et le verbe HTTP envoyés par le client (allez voir du côté de la superglobale $_SERVER)
+En fonction des valeurs réceptionnées, il devra exécuter l'opération appropriée
+Par exemple
+si le routeur reçoit GET /courses, il renverra une liste au format JSON de tous les cours (toutes les ressources courses)
+si le routeur reçoit GET /courses/5, il renverra un seul élément course au format JSON
+
+
+Manga -- Tsutomu Nihei - Blame! mais aussi Biomega ou Knight Of Sidonia aussi : https://www.glenat.com/manga/series/blame-deluxe
+BD -- Schuiten & Petters - Les cités obscures : https://www.casterman.com/Bande-dessinee/Collections-series/bd-ado-adultes/les-cites-obscures##
+Jeu Vidéo -- Limasse Five - NaisanceE (très inspiré par Blame!) : https://store.steampowered.com/app/265690/NaissanceE/
+BD -- Mathieu Bablet - Shangri La mais aussi Adrastrée, Carbone & Silicium... - https://chroniques-architecture.com/mathieu-bablet-ou-comment-la-bd-travaille-lavant-garde/
+
+
+
